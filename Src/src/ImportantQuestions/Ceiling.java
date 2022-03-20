@@ -2,8 +2,8 @@ package ImportantQuestions;
 
 import java.util.Arrays;
 import java.util.Scanner;
-    // Returning the index of the floor element which is related to the target element
-public class Floor {
+// returning the ceiling index of the element which is related to the target element 
+public class Ceiling {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("please enter the size of the array :");
@@ -20,10 +20,9 @@ public class Floor {
         System.out.println("please enter the target element :");
         int target = in.nextInt();
 
-        System.out.printf("the index of the floor value of the target element %d is %d",target,floor(arr,target));
-
+        System.out.printf("the index of the floor value of the target element %d is %d",target, ceiling(arr,target));
     }
-    static int floor(int[] arr,int target)
+    static int ceiling(int[] arr, int target)
     {
         int start = 0 ;
         int end = arr.length-1 ;
@@ -46,6 +45,6 @@ public class Floor {
                 // if < was present then there would be no returning of the middle element
             }
         }
-        return end;
+        return start;
     }
 }
