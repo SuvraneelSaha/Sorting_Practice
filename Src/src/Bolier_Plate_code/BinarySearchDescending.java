@@ -42,7 +42,7 @@ public class BinarySearchDescending {
             }
             else
             {
-                return mid; // middle element is the target element only 
+                return mid; // middle element is the target element only
             }
         }
         return -1;
