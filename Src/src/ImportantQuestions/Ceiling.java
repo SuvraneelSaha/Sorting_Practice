@@ -2,7 +2,7 @@ package ImportantQuestions;
 
 import java.util.Arrays;
 import java.util.Scanner;
-// returning the ceiling index of the element which is related to the target element 
+// returning the ceiling index of the element which is related to the target element
 public class Ceiling {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
