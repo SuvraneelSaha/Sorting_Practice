@@ -1,6 +1,6 @@
 package ImportantQuestions;
 
-public class Floor_Reversal {
+public class Ceiling_Reversal {
     public static void main(String[] args) {
 
     }
